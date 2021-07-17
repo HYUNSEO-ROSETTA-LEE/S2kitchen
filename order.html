@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>스이의 부뚜막 - ORDER</title>
+    <meta name="description" content="주문">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f5dab4">
+    <meta name="msapplication-TileColor" content="#f5dab4">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div id="order" class="big-bg">
+      <header class="page-header wrapper">
+        <h1><a href="index.html"><img class="logo" src="images/logo.svg" alt="스이의 부뚜막 홈"></a></h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="brand.html">BRAND</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="order.html">ORDER</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+   <div class="wrapper">
+     <h2 clss="page-title">Order</h2>
+     <form action="#">
+       <div>
+         <label for="name">이름</label>
+         <input type="text" id="name" name="your-name">
+       </div>
+
+       <div>
+         <label for="email">메일 주소</label>
+         <input type="email" id="email" name="your-email">
+       </div>
+
+       <div>
+         <label for="message">메시지</label>
+         <textarea id="message" name="your-message"></textarea>
+       </div>
+
+       <input type="submit" class="button" value="주문하기">
+     </form>
+     <!-- /#order
+     <form action="#">
+       <div class="menu_choice">
+         <h3>1. 메뉴선택</h3>
+           <select name="menu">
+             <option value="메뉴선택">메뉴를 선택하세요.</option>
+             <option value="유기농라따뚜이">유기농라따뚜이 12,000원</option>
+             <option value="유기농바질토마토파스타">유기농바질토마토파스타 13,000원</option>
+             <option value="유기농우리밀통밀식빵">유기농우리밀통밀식빵(대) 4,500원</option>
+             <option value="유기농우리밀통밀식빵">유기농우리밀통밀식빵(소) 3,500원</option>
+           </select>
+       </div>
+       <div class="menu_request">
+         <h3>2. 반찬/일회용품요청</h3>
+             <input type="checkbox" name="request" value="반찬" id="side">
+             <label for="side">수제피클</label>
+             <input type="checkbox" name="request" value="일회용품" id="cutlery">
+             <label for="cutlery">일회용숟가락/젓가락</label>
+             요청개수 : <input type="text" placeholder="최대 3개까지">
+       </div>
+       <div class="menu_order">
+         <h3>3. 주문서작성</h3>
+           <p>* 주문유형 :
+             <input type="radio" name="order" value="배달" id="delivery" checked>
+             <label for="delivery">배달</label>
+             <input type="radio" name="order" value="포장" id="packed">
+             <label for="packed">포장 (1,000원 할인)</label>
+           </p>
+           <p>* 주문자 : <input type="text" placeholder="이름을 입력하세요."></p>
+           <p>* 전화번호 : <input type="tel" placeholder="'-' 없이 11자리로 입력하세요."></p>
+           <p>* 주문확인메일 : <input type="email" placeholder="주문확인서가 발송됩니다."></p>
+           <p>* 웹사이트 :
+             <input type="radio" name="url" value="입력" id="enable" checked>
+             <label for="enable">입력</label>
+             <input type="radio" name="url" value="입력안함" id="disable">
+             <label for="disable">입력안함</label>
+             <p><input type="url" placeholder="url을 입력하세요."></p>
+           </p>
+           <p>* 배달지입력 : <input type="search" placeholder="우편번호를 검색하세요."></p>
+           <input type="submit" name="order-complete" value="주문하기">
+           <p>* 배달메모 : <textarea name="message" placeholder="배달기사님께 요청할 내용을 입력하세요."></textarea></p>
+           <p>* 배달비 선결제 동의 :
+             <input type="checkbox" name="deliveryfee" value="배달비" id="fee">
+             <label for="fee">배달비 3,000원 선결제에 동의합니다.</label>
+           </p>
+           <input type="submit" class="button" value="주문하기">
+         </div>
+     </form> /. order -->
+
+   </div><!-- /.wrapper -->
+
+  </body>
+  <footer>
+    <div class="wrapper">
+      <p><small>&copy; 2021 스이의 부뚜막</small></p>
+    </div>
+  </footer>
+</html>
